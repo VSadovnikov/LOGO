@@ -457,7 +457,10 @@ text-align:center;
 }
 
 .footer-block {
-	margin:10px auto;
+	margin-top:10px;
+    margin-bottom: 0;
+    margin-left:auto;
+    margin-right:auto;
 	display:inline-flex;
 	text-align:center;
 	justify-content:center;
@@ -838,7 +841,7 @@ ul {
 
 .flex-outer li input{
 	padding: 10px;
-	width: 75%;
+	width: 65%;
 	display: inline-flex;
 }
 
@@ -852,7 +855,7 @@ ul {
 	margin-left: auto;
 	padding: 8px 16px;
 	border: none;
-	background-color: #333;
+	background-color: #6995a9;
 	color: #f2f2f2;
 	text-transform: uppercase;
 	letter-spacing: .09em;
@@ -891,7 +894,10 @@ text-align:center;
 }
 
 .footer-block {
-	margin:10px auto;
+	margin-top:10px;
+    margin-bottom: 0;
+    margin-left:auto;
+    margin-right:auto;
 	display:flex;
 	flex-direction:column;
 	text-align:center;
@@ -1196,7 +1202,7 @@ ul {
 
 .flex-outer li input{
 	padding: 10px;
-	width: 80%;
+	width: 75%;
 	display: inline-flex;
 }
 
@@ -1210,7 +1216,6 @@ ul {
 	margin-left: auto;
 	padding: 8px 16px;
 	border: none;
-	background-color: #333;
 	color: #f2f2f2;
 	text-transform: uppercase;
 	letter-spacing: .09em;
@@ -1249,7 +1254,10 @@ text-align:center;
 }
 
 .footer-block {
-	margin:10px auto;
+	margin-top:10px;
+    margin-bottom: 0;
+    margin-left:auto;
+    margin-right:auto;
 	display:inline-flex;
 	text-align:center;
 	justify-content:center;
@@ -1589,15 +1597,15 @@ flex-direction:column nowrap;
 
 .works-row {
 	display:flex;
-	flex-direction:row;
-	margin:5px 5px;
+	flex-direction:column;
+	margin:5px 25px;
 }
 
 .works-row img {
-	margin-left:5px;
-	margin-right:5px;
-	margin-top:20px;
-	margin-bottom:20px;
+	margin-left:125px;
+	margin-right:125px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 /*Works Block End*/
@@ -1704,7 +1712,7 @@ ul {
 
 .flex-outer li input{
 	padding: 10px;
-	width: 82%;
+	width: 80%;
 	display: inline-flex;
 }
 
@@ -1718,7 +1726,6 @@ ul {
 	margin-left: auto;
 	padding: 8px 16px;
 	border: none;
-	background-color: #333;
 	color: #f2f2f2;
 	text-transform: uppercase;
 	letter-spacing: .09em;
@@ -1923,7 +1930,7 @@ ul {
 
 .flex-outer li input{
 	padding: 10px;
-	width: 55%;
+	width: 50%;
 	display: inline-flex;
 }
 
@@ -2034,7 +2041,7 @@ input, textarea {
 }
 
 .works-row img {
-	margin: 10px 5px;
+	margin: 10px 25px;
 }
 
 /*Works Block End*/
@@ -2141,7 +2148,7 @@ ul {
 
 .flex-outer li input{
 	padding: 10px;
-	width: 60%;
+	width: 55%;
 	display: inline-flex;
 }
 
@@ -2193,10 +2200,13 @@ input, textarea {
 @media (max-width: 668px) and (orientation:landscape) {
 .flex-outer li input{
 	padding: 10px;
-	width: 78%;
+	width: 70%;
 	display: inline-flex;
 }
 }
+
+
+
 @media (max-width: 320px) and (orientation:portrait) {
 
 	 .area {
@@ -2367,7 +2377,7 @@ ul {
 
 .flex-outer li input{
 	padding: 10px;
-	width: 65%;
+	width: 55%;
 	display: inline-flex;
 }
 
@@ -2381,7 +2391,6 @@ ul {
 	margin-left: auto;
 	padding: 8px 16px;
 	border: none;
-	background-color: #333;
 	color: #f2f2f2;
 	text-transform: uppercase;
 	letter-spacing: .09em;
